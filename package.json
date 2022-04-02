@@ -4,15 +4,19 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "fm": "prettier --write ."
   },
   "dependencies": {
     "@types/bootstrap": "^5.1.9",
     "@types/react-bootstrap": "^0.32.29",
+    "@types/uuid": "^8.3.4",
     "bootstrap": "^5.1.3",
+    "prettier": "^2.6.1",
     "react": "^17.0.0",
     "react-bootstrap": "^2.2.2",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "^16.9.1",
